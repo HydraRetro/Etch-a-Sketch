@@ -15,7 +15,8 @@ Day 1:
 - Made function that turns the div cells black on mouseover
   but its only changing the first one. I think I need a loop?
 - Added 3 buttons for grid sizes
-- Created temp function on button click to change DOM html & style to 32x32.
+- Created temp function on button click to change DOM html & style to all 3 sizes
+- Left default 16x16 in as well for now.
 
 
 
