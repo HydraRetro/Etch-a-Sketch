@@ -18,6 +18,9 @@ Day 1:
 - Created temp function on button click to change DOM html & style to all 3 sizes
 - Left default 16x16 in as well for now.
 
-
+Day 2:
+- Figured out how to make it work for the default but doesnt work once I change the grid size.
+- Passed in the mouseover function into each of the button event listeners and works that way.
+- Trying to figure out a way to clear the grid once a button is pushed..no luck yet.
 
 Created by HydraRetro.
