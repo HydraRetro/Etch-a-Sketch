@@ -30,8 +30,6 @@ gridItems.forEach((item) => {
 });
 
 
-
-
 //FUTURE ME - FIGURE OUT HOW TO REFACTOR THIS TO BE MUCH MORE CONDENSED
 
 //Adds 16x16 grid in DOM HTML and Styles update.
@@ -103,9 +101,6 @@ grid64.addEventListener('click', function () {
         })
     });
 });
-
-
-
 
 
 //Primitive Reset Button
