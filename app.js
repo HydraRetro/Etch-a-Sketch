@@ -26,7 +26,7 @@ function changeSize(input) {
         document.querySelector(".error").style.display = "none";
         populateBoard(input);
     } else {
-        document.querySelector(".error").style.cssText = "display: flex; justify-content: center; padding: 10px;"
+        document.querySelector(".error").style.cssText = "display: flex; justify-content: center; padding: 10px; color: red;";
     }
 }
 
