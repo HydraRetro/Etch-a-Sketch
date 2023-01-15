@@ -43,8 +43,7 @@ h1 {
     align-items: center;
 }
 
-
-/* RESET BUTTON */
+/* COLOR BUTTONS */
 .buttons {
     display: flex;
     margin: auto;
@@ -53,7 +52,6 @@ h1 {
     padding: 20px 0px;
     gap: 10px;
     width: 520px;
-    /* border: 1px solid #5e503f; */
 }
 
 .gridSizeButton>button {
@@ -72,6 +70,7 @@ h1 {
     transition: 300ms;
 }
 
+/* RESET BUTTON */
 #buttonReset {
     background-color: red;
     color: beige;
@@ -90,14 +89,42 @@ h1 {
 }
 
 /* INPUT FIELD */
-
 .inputDiv {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
     gap: 10px;
 }
 
+input {
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#submitButton {
+    background-color: #c6ac8f;
+    color: beige;
+    font-weight: bolder;
+    padding: 5px 15px;
+    border: 1px solid #c6ac8f;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    border: 1px solid red;
+    transition: 300ms;
+}
+
+.error {
+    display: none;
+}
 
 /* GITHUB ICON */
 .gitHub {
