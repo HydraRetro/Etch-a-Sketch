@@ -23,4 +23,8 @@ Day 2:
 - Passed in the mouseover function into each of the button event listeners and works that way.
 - Trying to figure out a way to clear the grid once a button is pushed..no luck yet.
 
+Day 3:
+- Refactoring code
+- Getting really frustrated with myself for spending so many hours trying this only to see people completing it in ~30mins.
+
 Created by HydraRetro.
