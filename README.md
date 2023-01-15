@@ -1,6 +1,6 @@
 # Etch-a-Sketch
 
-The Odin Project - Foundations Assignment
+A basic drawing pad with the option of black and a random colors. You can choose a grid size between 2 and 100.
 
 # Developer Log
 
