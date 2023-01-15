@@ -13,7 +13,7 @@ html {
     margin-top: 50px;
     background-color: #0000004d;
     width: 600px;
-    height: 725px;
+    height: 800px;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
 }
@@ -32,13 +32,8 @@ h1 {
     margin: auto;
     height: 500px;
     width: 500px;
-    flex: 1;
     display: grid;
-    grid-template-columns: repeat(16, calc((100% - 16px) / 16));
-    grid-template-rows: repeat(16, calc((100% - 16px) / 16));
     border: solid 10px #5e503f;
-    background-color: black;
-    gap: 1px;
 }
 
 .gridCell {
@@ -86,12 +81,21 @@ h1 {
     border-radius: 5px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
 }
+
 #buttonReset:hover {
     background-color: #c6ac8f;
     color: red;
     cursor: pointer;
-    /* transform: translateY(-0.25em); */
     transition: 300ms;
+}
+
+/* INPUT FIELD */
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 
@@ -100,11 +104,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .icon {
     color: #c6ac8f;
 }
+
 .icon:hover {
     stroke: #eae0d5;
     transform: rotate(3.142rad);
