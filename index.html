@@ -27,11 +27,14 @@
             </div>
             <button id="buttonReset" onclick="resetBoard()">RESET</button>
         </div>
+
+        <!-- INPUT FIELD -->
         <div class="inputDiv">
             <input type="text" placeholder="Size of Board" value="16" onchange="changeSize(this.value)" />
-            <button>SUBMIT</button>
+            <button id="submitButton">Submit</button>
         </div>
-        
+
+        <!-- INPUT ERROR -->
         <div class="error">
             Input must be between 2 and 100
         </div>
