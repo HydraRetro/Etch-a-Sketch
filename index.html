@@ -21,11 +21,19 @@
         <!-- BUTTONS -->
         <div class="buttons">
             <div class="gridSizeButton">
-                <button id="16">16 x 16</button>
-                <button id="32">32 x 32</button>
-                <button id="64">64 x 64</button>
+                <button onclick="changeColor('black')">Black</button>
+                <button onclick="changeColor('random')">Random</button>
+                <button onclick="changeColor('white')">Erase</button>
             </div>
-            <button id="buttonReset">RESET</button>
+            <button id="buttonReset" onclick="resetBoard()">RESET</button>
+        </div>
+        <div class="inputDiv">
+            <input type="text" placeholder="Size of Board" value="16" onchange="changeSize(this.value)" />
+            <button>SUBMIT</button>
+        </div>
+        
+        <div class="error">
+            Input must be between 2 and 100
         </div>
 
         <!-- GITHUB LINK -->
