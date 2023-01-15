@@ -25,6 +25,12 @@ Day 2:
 
 Day 3:
 - Refactoring code
-- Getting really frustrated with myself for spending so many hours trying this only to see people completing it in ~30mins.
+- Changed buttons to be color select and erase.
+- Added input per the Odin project requests.
+- Added an input warning if value is not correct
+- Styled input and button
 
-Created by HydraRetro.
+
+
+# About
+Created by HydraRetro. The Odin Project 2023.
